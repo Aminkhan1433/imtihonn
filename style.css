@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: cursive;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+
+#salom{
+    display: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+header button{
+    background-color: white;
+    width: 146px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+
+
+.headerbtm{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2D2641;
+    color: white;
+    background-image: url(./Group\ 18.svg);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 400px;
+}
+
+
+.headerbtm h1{
+    font-size: 50px;
+}
+
+.headerbtm p{
+    font-size: 20px;
+}
+
+
+.headerbtm div{
+    width: 35%;
+}
+
+
+.headerbtm img{
+    position: relative;
+    top: 150px;
+}
+
+
+.headerbtm button{
+    width: 146px;
+    height: 40px;
+    border: 2px solid white;
+    margin-top: 10px;
+    background: none;
+    color: white;
+}
+
+
+#Path{
+    background-color: #96A9C6;
+    border-radius: 50%;
+    width: 86px;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    width: 400px;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    flex-wrap: wrap;
+}
+
+
+.mainbtm{
+    height: 350px;
+    width: 100%;
+    background-image: url(./Group\ 6\ Copy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-bottom: 100px;
+}
+
+
+.mainbtm div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 130px;
+}
+
+
+.mainbtm button{
+    width: 164px;
+    height: 46px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.mainbtm h1{
+    font-size: 56px;
+    width: 575px;
+    height: 112px;
+}
+
+
+footer .footerheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-top: 10px;
+}
+
+
+.bir{
+    margin-bottom: 50px;
+    color: gray;
+}
+
+
+footer{
+    margin-bottom: 100px;
+}
+
+
+
+@media(max-width:768px) {
+    .headerbtm h1{
+        font-size: 30px;
+    }
+
+
+    .headerbtm p{
+        font-size: 10px;
+    }
+
+
+    .headerbtm img{
+        width: 300px;
+    }
+}
+
+
+
+@media (max-width:420px) {
+   .headerbtm{
+       flex-direction: column-reverse;
+   }
+
+
+   .headerbtm img{
+    width: 100%;
+    position: relative;
+    top: 0px;
+   }
+
+
+   #salom{
+    display: block;
+   }
+
+   .sa{
+    display: none;
+   }
+
+
+   main{
+    margin-left: 20px;
+   }
+
+
+   .mainbtm h1{
+    font-size: 20px;
+   }
+
+   .list {
+    flex-direction: column;
+    text-align: center;
+   }
+
+}
